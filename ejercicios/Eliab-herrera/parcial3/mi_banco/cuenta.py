@@ -10,7 +10,7 @@ Representacion de una cuenta bancaria
     
     def __init__(self, cliente, cuenta, saldo = 0):
       """ 
- Inicializa una nueva cuenta bancaria.
+Inicializa una nueva cuenta bancaria.
  
      Agrs:
         cliente: nombre del cliente.
@@ -23,7 +23,7 @@ Representacion de una cuenta bancaria
 
     def deposito(self, cantidad):
         """
- Realiza un deposito en la cuenta.
+Realiza un deposito en la cuenta.
    
         Agrs:
             cantidad:(float) ingresa la cantidad a depositar. Debe ser un valor positivo.
@@ -39,7 +39,7 @@ Representacion de una cuenta bancaria
     
     def retiro(self,cantidad):
         """
- Realiza un retiro de la cuenta.
+Realiza un retiro de la cuenta.
         Agrs:
             cantidad:(float) ingresa la cantidad a retirar
         Retors: bool
