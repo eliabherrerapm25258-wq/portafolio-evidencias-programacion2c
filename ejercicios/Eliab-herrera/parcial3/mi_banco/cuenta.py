@@ -27,9 +27,9 @@ Realiza un deposito en la cuenta.
    
         Agrs:
             cantidad:(float) ingresa la cantidad a depositar. Debe ser un valor positivo.
-        Retorns: bool
-            bool:True si el deposito fue exitoso.
-            bool:False si la cantidad es negativa.
+        Returns:
+            bool: True si el deposito fue exitoso.
+            bool: False si la cantidad es negativa.
 
         """
         if cantidad > 0:
@@ -42,9 +42,9 @@ Realiza un deposito en la cuenta.
 Realiza un retiro de la cuenta.
         Agrs:
             cantidad:(float) ingresa la cantidad a retirar
-        Retors: bool
-            bool:True si el retiro fue exitoso.
-            bool:false si el saldo es isuficiente o si la cantidad es cero.
+        Returns:
+            bool: True si el retiro fue exitoso.
+            bool: False si el saldo es isuficiente o si la cantidad es cero.
           """
         if cantidad > 0 and cantidad <= self.saldo:
             self.saldo -= cantidad
