@@ -1,6 +1,6 @@
 class cuenta:
     """
- Representacion de una cuenta bancaria
+     Representacion de una cuenta bancaria
     Atributos:
         cliente: nombre del cliente.
         cuenta: numero de cuenta.
@@ -9,10 +9,8 @@ class cuenta:
     
     def __init__(self, cliente, cuenta, saldo = 0):
         """ 
-     Inicializa una nueva cuenta bancaria.
-
+         Inicializa una nueva cuenta bancaria.
      Agrs:
-
         cliente: nombre del cliente.
         cuenta: numero de cuenta.
         saldo: saldo inicial de la cuenta. (por defecto 0)
@@ -23,14 +21,10 @@ class cuenta:
 
     def deposito(self, cantidad):
         """
-        Realiza un deposito en la cuenta.
-
+            Realiza un deposito en la cuenta.
         Agrs:
-
             cantidad:(float) ingresa la cantidad a depositar. Debe ser un valor positivo.
-
         Retorns: bool
-
             bool:True si el deposito fue exitoso.
             bool:False si la cantidad es negativa.
 
@@ -42,14 +36,10 @@ class cuenta:
     
     def retiro(self,cantidad):
         """
-        Realiza un retiro de la cuenta.
-        
+            Realiza un retiro de la cuenta.
         Agrs:
-        
             cantidad:(float) ingresa la cantidad a retirar
-        
         Retors: bool
-        
             bool:True si el retiro fue exitoso.
             bool:false si el saldo es isuficiente o si la cantidad es cero.
         """
