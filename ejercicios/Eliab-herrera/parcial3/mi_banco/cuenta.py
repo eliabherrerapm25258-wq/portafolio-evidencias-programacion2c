@@ -1,6 +1,6 @@
 class cuenta:
     """
- Representacion de una cuenta bancaria
+Representacion de una cuenta bancaria
  
     Atributos:
         cliente: nombre del cliente.
