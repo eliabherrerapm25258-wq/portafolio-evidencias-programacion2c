@@ -27,7 +27,7 @@ class TestCuenta(unittest.TestCase):
         self.assertFalse(result)
         self.assertEqual(self.cuenta.saldo, 0, "El saldo actual deberia ser 0")
 
-    #test para validar seposito en 0
+    #test para validar deposito en 0
 
     #----------- Pruebas DEL RETIRO -----------
 
